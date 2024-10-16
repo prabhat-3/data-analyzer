@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- XLSX Library for Excel File Processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <!-- PDFLib Library for PDF File Processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload PDF or Excel for Analysis</h1>
+        <!-- File input for Excel or PDF file -->
+        <input type="file" id="file-input" accept=".xlsx,.pdf">
+        <button id="analyze-btn">Analyze</button>
+        <!-- Preformatted text to show the analysis output -->
+        <pre id="analysis-output"></pre>
+    </div>
+    <script src="app.js"></script> <!-- Include the JavaScript file -->
+</body>
+</html>
